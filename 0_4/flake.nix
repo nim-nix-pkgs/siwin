@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-siwin-0_4.flake = false;
+  inputs.src-siwin-0_4.ref   = "refs/tags/0.4";
   inputs.src-siwin-0_4.owner = "levovix0";
-  inputs.src-siwin-0_4.ref   = "0_4";
   inputs.src-siwin-0_4.repo  = "siwin";
   inputs.src-siwin-0_4.type  = "github";
   
